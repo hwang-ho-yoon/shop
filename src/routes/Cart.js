@@ -1,5 +1,5 @@
 import React, { memo } from 'react';
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 import { Table } from 'react-bootstrap';
 import {useSelector, useDispatch} from "react-redux";
 import { increase } from '../store/userSlice.js';
